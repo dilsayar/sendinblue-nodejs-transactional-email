@@ -13,6 +13,11 @@ This is an example showing how to use the Sendinblue API to send transactional e
 ## Help & Documents
 Detailed guides and API specification can be found on [Sendinblue developer website.](https://developers.sendinblue.com/docs/api-clients)
 
+## Online Preview & Development
+- You can view this project on [StackBlitz](https://stackblitz.com/github/dilsayar/sendinblue-nodejs-transactional-email "StackBlitz")
+- You can view this project on [Replit](https://replit.com/github/dilsayar/sendinblue-nodejs-transactional-email "Replit")
+
+
 ## Maintainer
 Hi there, I am **Hüseyin Demirtaş.**
 This is a code snippet I am using for one of my projects. Feel free to use it. 
