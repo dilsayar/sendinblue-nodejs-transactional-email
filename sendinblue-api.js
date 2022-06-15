@@ -1,11 +1,11 @@
 // You need NodeJS installed to run this project
 // First install dependencies by running npm install or yarn install inside the project directory
 // Then rename .env.example to .env and set your API key as shown below in that file
-// SENDINLBUE_API_KEY = "api-key"
+// SENDINBLUE_API_KEY = "api-key"
 
 require('dotenv').config();
 const SendinblueApiV3Sdk = require('sib-api-v3-sdk');
-const SendinblueAPIKey = process.env.SENDINLBUE_API_KEY;
+const SendinblueAPIKey = process.env.SENDINBLUE_API_KEY;
 SendinblueApiV3Sdk.ApiClient.instance.authentications['api-key'].apiKey = SendinblueAPIKey
 
 // You can use this line for debugging purposes
